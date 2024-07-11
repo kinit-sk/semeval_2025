@@ -26,14 +26,14 @@ Potential retrieval setup can be various. For example, for each SMP, the FC sear
 In this task, we aim to evaluate in both monolingual and crosslingual setup. Common metrics include mean reciprocal rank and success @ K. 
 
 The sample data consists of three csv files:
-### 1) trial_fact_check_post_mapping.csv (50 pairs)
+#### 1) trial_fact_check_post_mapping.csv (50 pairs)
 This file contains the mapping between fact checks and social media posts.
 It has three fields:
 - fact_check_id: the id of the fact check in the trial_fact_checks.csv
 - post_id: the id of the post in the trial_posts.csv
 - pair_lang: the language info about this mapped pair. For example, spa-eng stands for SMP in Spanish and FC in English. 
 
-### 2) trial_fact_checks.csv (50 fact-checks)
+#### 2) trial_fact_checks.csv (50 fact-checks)
 This file contains all fact-checks.
 It has four fields:
 
@@ -42,7 +42,7 @@ It has four fields:
 - instances - Instances of the fact-check – a list of timestamps and URLs.
 - title - This is the translated text (see below) of the fact-check title
 
-### 3) trial_posts.csv (47 social media posts)
+#### 3) trial_posts.csv (47 social media posts)
 This file contains all social media posts.
 It has five fields:
 
@@ -52,16 +52,32 @@ It has five fields:
 - verdicts - This is a list of verdicts attached by Meta (e.g., False information)
 - text - This is the text and translated text (see below) of the text written by the user.
 
-### Loading the Data
+#### Loading the Data
 
 Along with the CSV files, we provide Python script ``load.py`` to load the data.
 
-### What is a translated text?
+#### What is a translated text?
 A tuple of text, its translation to English and detected languages, e.g., in the sample below we have an original Croatian text, its translation to English and finally the predicted language composition (hbs = Serbo-Croatian):
 
 (  '"...bolnice su pune ? ti  ina, muk...upravo sada, bolnica Rebro..tragi  no sme  no',  '"...hospitals are full? silence, silence... right now, Rebro hospital... tragically funny',  [('hbs', 1.0)] )
 
-### API used for ocr and translation
+#### API used for ocr and translation
 We use following services to obtain transcripts and translations:
 - Google Vision API. We use Google Vision API to extract text from images attached to the post. The API also returns a list of languages found in each image with their percentage.
 - Google Translate API. We use Google Translate API to translate all the texts into English. The API also returns a most probable language.
+
+## Organizers
+
+| Organizers | Affiliation                                    |
+|------------|------------------------------------------------|
+| Qiwei Peng      | University of Copenhagen                       |
+| Michal Gregor      | Kempelen Institute of Intelligent Technologies |
+| Ivan Srba      | Kempelen Institute of Intelligent Technologies |
+| Simon Ostermann      | German Research Center for Artificial Intelligence |
+| Marián Šimko      | Kempelen Institute of Intelligent Technologies |
+| Jaroslav Kopčan      | Kempelen Institute of Intelligent Technologies |
+| Juraj Podroužek      | Kempelen Institute of Intelligent Technologies |
+| Matúš Mesarčík      | Kempelen Institute of Intelligent Technologies |
+| Anders Søgaard       | University of Copenhagen |
+
+
