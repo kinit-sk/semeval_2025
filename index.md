@@ -19,7 +19,7 @@ For additional details about the dataset, one may also refer to the [dataset pap
 
 In this task, you are given social media posts (SMP), and a bunch of fact-checks (FC). The goal is to find the most relevant fact-checks for each social media post.
 
-In this trial data, we have in total 50 SMP-FC pairs. Out of them, we have 10 eng-eng pairs and 40 pairs in 2 different languages (each has 20 examples, 10 for monolingual (e.g., kor-kor) and 10 for multilingual (e.g., kor-eng)).
+In this trial data (sampled from MultiClaim), we have in total 50 SMP-FC pairs. Out of them, we have 10 eng-eng pairs and 40 pairs in 2 different languages (each has 20 examples, 10 for monolingual (e.g., kor-kor) and 10 for multilingual (e.g., kor-eng)).
 
 Potential retrieval setup can be various. For example, for each SMP, the FC search pool can be limited to the target language, different languages, and different mix of languages.
 
