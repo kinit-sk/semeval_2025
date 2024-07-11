@@ -81,4 +81,7 @@ We use following services to obtain transcripts and translations:
 | Matúš Mesarčík      | Kempelen Institute of Intelligent Technologies |
 | Anders Søgaard       | University of Copenhagen |
 
+If you have any questions, please contact us at [semeval@disai.eu](mailto:semeval@disai.eu).
+
+
 
