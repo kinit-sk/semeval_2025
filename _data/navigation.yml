@@ -1,5 +1,8 @@
 main:
 
+  - title: "Sample Data"
+    url: ./#sample_data
+
   - title: "Transparency Notes"
     url: /transparency_notes.html
   
