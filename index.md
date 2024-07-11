@@ -66,6 +66,7 @@ We use following services to obtain transcripts and translations:
 - Google Vision API. We use Google Vision API to extract text from images attached to the post. The API also returns a list of languages found in each image with their percentage.
 - Google Translate API. We use Google Translate API to translate all the texts into English. The API also returns a most probable language.
 
+<a id="organizers" />
 ## Organizers
 
 | Organizers | Affiliation                                    |

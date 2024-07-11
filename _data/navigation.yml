@@ -3,6 +3,9 @@ main:
   - title: "Sample Data"
     url: ./#sample_data
 
+  - title: "Organizers"
+    url: ./#organizers
+
   - title: "Transparency Notes"
     url: /transparency_notes.html
   
