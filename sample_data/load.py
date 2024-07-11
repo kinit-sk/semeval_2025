@@ -9,9 +9,9 @@ import pandas as pd
 
 our_dataset_path = '.'
 
-posts_path = os.path.join(our_dataset_path, 'posts.csv')
-fact_checks_path = os.path.join(our_dataset_path, 'fact_checks.csv')
-fact_check_post_mapping_path = os.path.join(our_dataset_path, 'fact_check_post_mapping.csv')
+posts_path = os.path.join(our_dataset_path, 'trial_posts.csv')
+fact_checks_path = os.path.join(our_dataset_path, 'trial_fact_checks.csv')
+fact_check_post_mapping_path = os.path.join(our_dataset_path, 'trial_data_mapping.csv')
 
 for path in [posts_path, fact_checks_path, fact_check_post_mapping_path]:
     assert os.path.isfile(path)
