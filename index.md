@@ -15,7 +15,7 @@ For additional details about the dataset, one may also refer to the [dataset pap
 <a id="sample_data" />
 ## Sample Data
 
-[[LINK TO THE SAMPLE DATA AT GITHUB]](https://github.com/kinit-sk/semeval_2025)
+[[LINK TO THE SAMPLE DATA AT GITHUB]](https://github.com/kinit-sk/semeval_2025/tree/main/sample_data)
 
 In this task, you are given social media posts (SMP), and a bunch of fact-checks (FC). The goal is to find the most relevant fact-checks for each social media post.
 
@@ -51,6 +51,10 @@ It has five fields:
 - ocr - This is a list of texts and their translated versions (see below) of the OCR transcripts based on the images attached to the post.
 - verdicts - This is a list of verdicts attached by Meta (e.g., False information)
 - text - This is the text and translated text (see below) of the text written by the user.
+
+### Loading the Data
+
+Along with the CSV files, we provide Python script ``load.py`` to load the data.
 
 ### What is a translated text?
 A tuple of text, its translation to English and detected languages, e.g., in the sample below we have an original Croatian text, its translation to English and finally the predicted language composition (hbs = Serbo-Croatian):
