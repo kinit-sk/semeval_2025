@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "SemEval 2025 Shared Task 7"
+title: "SemEval 2025 Shared Task"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  SemEval 2025 shared task 7 "Multilingual and Crosslingual Fact-Checked Claim Retrieval"
+  SemEval 2025 shared task "Multilingual and Crosslingual Fact-Checked Claim Retrieval"
 # twitter_username: username
 # github_username: username
 minimal_mistakes_skin: default
