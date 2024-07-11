@@ -1,4 +1,3 @@
-<a id="abstract" />
 ## About the Task
 
 The SemEval shared task on Multilingual and Crosslingual Fact-Checked Claim Retrieval addresses the critical challenge of efficiently identifying previously fact-checked claims across multiple languages — a task that can be time-consuming for professional fact-checkers even within a single language and becomes much more difficult to perform manually when the claim and the fact-check may be in different languages. Given the global spread of disinformation narratives, the range of languages that one would need to cover not to miss existing fact-checks is vast.
@@ -7,7 +6,6 @@ Participants in the task will **develop systems to retrieve relevant fact-checke
 
 For additional details about the dataset, one may also refer to the [dataset paper](https://arxiv.org/abs/2305.07991).
 
-<a id="sample_data" />
 ## Sample Data
 
 [[LINK TO THE SAMPLE DATA AT GITHUB]](https://github.com/kinit-sk/semeval_2025/tree/main/sample_data)
