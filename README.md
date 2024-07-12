@@ -2,9 +2,13 @@
 
 The SemEval shared task on Multilingual and Crosslingual Fact-Checked Claim Retrieval addresses the critical challenge of efficiently identifying previously fact-checked claims across multiple languages — a task that can be time-consuming for professional fact-checkers even within a single language and becomes much more difficult to perform manually when the claim and the fact-check may be in different languages. Given the global spread of disinformation narratives, the range of languages that one would need to cover not to miss existing fact-checks is vast.
 
-Participants in the task will **develop systems to retrieve relevant fact-checked claims** for given social media posts, using the [MultiClaim dataset](https://zenodo.org/records/7737983) of over 200,000 fact-checked claims and 28,000 social media posts in 27 languages – supporting fact-checkers and researchers in their efforts to curb the spread of misinformation globally. Submissions will be evaluated in terms of two metrics, mean reciprocal rank and success-at-K and in two separate tracks: monolingual and crosslingual. The task not only pushes the boundaries of NLP and information retrieval, but it also has significant potential for real-world impact in the fight against misinformation.
+Participants in the task will **develop systems to retrieve relevant fact-checked claims** for given social media posts, using the [MultiClaim dataset](https://zenodo.org/records/7737983) of over 200,000 fact-checked claims and 28,000 social media posts in 27 languages – supporting fact-checkers and researchers in their efforts to curb the spread of misinformation globally. Submissions will be evaluated in terms of two metrics, mean reciprocal rank and success-at-K and in two separate tracks: monolingual and crosslingual. The task not only pushes the boundaries of NLP and information retrieval, but it also has significant potential for real-world impact in the fight against misinformation.s
 
-For additional details about the dataset, one may also refer to the [dataset paper](https://arxiv.org/abs/2305.07991).
+**Important links:**
+
+* [Shared task webpage](https://kinit-sk.github.io/semeval_2025/);
+* [DisAI project webpage](https://disai.eu/);
+* [Original dataset paper](https://arxiv.org/abs/2305.07991) for additional details about the dataset;
 
 ## Sample Data
 
